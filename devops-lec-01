@@ -8,13 +8,14 @@ DevOps Lifecycle is the set of phases that includes DevOps for taking part in De
 
 What is monolithic architecture?
 In a monolithic architecture, the operating system kernel is designed to provide all operating system services, including memory management, process scheduling, device drivers, and file systems, in a single, large binary. 
+Project of small scale is made using monolithic.
 
 
 What is a service?
 The DevOps as a Service system helps to ensure that the organization achieves desired outcomes and successfully follows strategies such as continuous delivery (CD) and continuous integration (CI) to deliver business value.
 
 
-what is a microservice?
+what is a microservice architecture ?
 Microservices describes the architectural process of building a distributed application from separately deployable services that perform specific business functions and communicate over web interfaces.
-
+More reliabilty i.e. applictaion is made up of more riliable tools.
 
