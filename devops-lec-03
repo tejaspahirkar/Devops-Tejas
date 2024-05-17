@@ -1,1 +1,25 @@
+Branches
+What is branching in git?
 
+ls -a
+git init --> initialization
+ls -a
+git branch
+git add dev
+git status
+git branch
+git commit -m "first commit"
+git status 
+git branch main
+mv dev source-code -->rename file
+ls
+git status
+git add
+git commit -m "renamed file"
+git branch dev
+git checkout dev--> to enter that rescpective branch                                                                                   
+
+
+Questions:
+1) Difference between clone, pull and fetch.
+2) Difference between merge and rebase.
