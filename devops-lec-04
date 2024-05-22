@@ -1,0 +1,5 @@
+Dockers
+
+Docker is a container creating tool
+To manage that container we use kubernetes
+The os which is used to create container is called docker engine
