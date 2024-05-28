@@ -5,7 +5,7 @@ sudo docker ps -a --> shows hidden container
 sudo docker run nginx --> creates container
 docker run -d --> -d stahnds for detach
 sudo docker run -d nginx --> nginx will keep runing in background because docker uses daemon
-curl command -->helps to access url just like accessing google in windows
+curl command -->helps to access url just like accessing google in windows  
 dmidecode--> gives information about machine like software and hardware
 nginx is service which keeps runing untill you exit it
 sudo docker inspect image id --> gives ip and gateway
@@ -16,8 +16,18 @@ docker inspect -->
 sudo docker kill(image id)--> stops process
 sudo docker stop
 sudo docker start
-
+sudo docker exec -it image 
 sudo docker run -it nginx /bin/bash --> it means interact , bin bash are shell
 curl ip --> curl ctrl+r
 ctrl + r --> gives reeverse search that is 
+sudo docker copy 
+sudo docker rmi imagename -->to delete
+sudo docker rm -f containerid --> remove forcefully
+docker commit --> t create image of current container
+docker run
+stack overflow and medium
+vi Dockerfile
+difference between run and cmd
+what is the use of entry point instruction?
+
 
