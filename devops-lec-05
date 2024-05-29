@@ -29,6 +29,7 @@ docker run
 sudo docker logs container id-->
 stack overflow and medium
 vi Dockerfile
+
 difference between run and cmd
 what is the use of entry point instruction?
 
