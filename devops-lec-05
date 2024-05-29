@@ -1,7 +1,7 @@
 container is a processs, it is also an isolated network process means it is secure
 docker ps
 suddo docker ps --> shows running container
-sudo docker ps -a --> shows hidden container
+sudo docker ps -a --> shows all container
 sudo docker run nginx --> creates container
 docker run -d --> -d stahnds for detach
 sudo docker run -d nginx --> nginx will keep runing in background because docker uses daemon
@@ -15,19 +15,21 @@ echo is used for print
 docker inspect -->
 sudo docker kill(image id)--> stops process
 sudo docker stop
-sudo docker start
+sudo docker start image id --> then container runs
 sudo docker exec -it image 
-sudo docker run -it nginx /bin/bash --> it means interact , bin bash are shell
+sudo docker run -it nginx /bin/bash --> it means interact and login into shell
 curl ip --> curl ctrl+r
 ctrl + r --> gives reeverse search that is 
-sudo docker copy 
+sudo docker diff image if --> shows changes in container
+sudo docker copy  
 sudo docker rmi imagename -->to delete
 sudo docker rm -f containerid --> remove forcefully
 docker commit --> t create image of current container
 docker run
+sudo docker logs container id-->
 stack overflow and medium
 vi Dockerfile
 difference between run and cmd
 what is the use of entry point instruction?
 
-
+ufw --> firewall command
