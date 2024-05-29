@@ -1,1 +1,7 @@
-
+From ubuntu
+ENV my name is harissh
+WORKDIR /mnt
+COPY . .  --> grtting file from host
+ADD 
+Run echo "hello how are you" > /mnt/file1
+CMD  
