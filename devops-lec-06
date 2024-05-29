@@ -1,7 +1,7 @@
 From ubuntu
 ENV my name is harissh
 WORKDIR /mnt
-COPY . .  --> grtting file from host
-ADD 
+COPY . .  --c> grtting file from host
+ADD d
 Run echo "hello how are you" > /mnt/file1
 CMD  
