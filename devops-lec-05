@@ -24,7 +24,7 @@ sudo docker diff image if --> shows changes in container
 sudo docker copy  
 sudo docker rmi imagename -->to delete
 sudo docker rm -f containerid --> remove forcefully
-docker commit --> t create image of current container
+docker commit --> to create image of current container
 docker run
 sudo docker logs container id-->
 stack overflow and medium
