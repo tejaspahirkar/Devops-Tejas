@@ -1,1 +1,53 @@
+vim docker file 
 
+FROM ubuntu:latest
+LABEL maintainer="tejaspahikar@gmail.com"
+RUN apt update -y && apt upgrade -y --> get update and upgrade
+RUN apt install nginx -y
+EXPOSE 80 
+CMD ["nginx","-g","daemon off";] --> to start service
+
+
+how to create docker file :-
+
+1) sudo docker build -t nginx-container .
+sudo docker images --> to check size
+
+2) sudo ddocker run -it -d nginx-container /bin/bash
+sudo docker ps --> to check container running 
+
+3) sudo docker attach image id --> to login to docker 
+
+systemctl status nginx
+systemctl start nginx
+
+curl local host
+
+exit
+
+sudo docker start imageid
+
+VOLUMES
+ligtweight ,fast ,easy to replicate __> properties of container 
+
+volume remains separated from container to maintain its properties
+
+container are made using command based and file based
+
+ubuntu being an host we will create a container and attach it to a volume
+we can attach that updated volume to other container as well
+
+TASK
+HOW to attach volume to an existing container?
+calculate space of a particular directory.
+how can we create file in docker 
+
+sudo docker volume create (vol name) -->to create volume and run
+sudo docker volume ls 
+sudo docker stop (container id)
+
+sudo docker run -it -v my-vol:/volume nginx-container /bin/bash 
+
+ls
+
+cd volume/
