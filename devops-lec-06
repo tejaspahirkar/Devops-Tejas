@@ -1,7 +1,11 @@
 From ubuntu
 ENV my name is harissh
 WORKDIR /mnt
-COPY . .  --c> grtting file from host
+COPY . .  --c> grtting file from local to container 
 ADD d
 Run echo "hello how are you" > /mnt/file1
-CMD  
+CMD  --> after run we use cmd command
+Maintainer 
+work dir
+
+APPLICTION HOSTING USING docker file 
