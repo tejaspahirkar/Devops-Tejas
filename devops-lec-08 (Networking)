@@ -1,1 +1,5 @@
+sudo docker network ls
+
+127.0.0.11 --> to check whether connection troubleshoot. 
+              if response is received then its isp problem if not then your device has the problem.
 
