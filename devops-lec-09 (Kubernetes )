@@ -2,3 +2,5 @@ Kubernetes is used to manage container and deploy services.
 
 kubectl --> kubernetes control , starting of every command
   
+kubernetes also manages pod .
+
