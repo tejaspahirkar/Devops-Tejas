@@ -1,6 +1,36 @@
+https://kubernetes.io/docs/tutorials/kubernetes-basics/
+
 Kubernetes is used to manage container and deploy services.
 
 kubectl --> kubernetes control , starting of every command
   
 kubernetes also manages pod .
 
+if container gets crashed pod is deployed.
+
+Architecture (k8s architecture)(https://medium.com/@himanshusangshetty/kubernetes-architecture-and-components-explained-e489e98db15d)
+Kubernetes works in cluster format.
+
+Kubernetes master.
+we have to set kubernetes master plane only once on premise .
+API server performs communication between master and worker node.
+SCheduler schedule pods in worker nods.If pod gets crash it makes it again.
+Contoller- manager manages the work of maintaining of worker node.For example assinging pod according to requirement.
+etcd is database of kubernetes which holds data of worker node.holds information about pods, services and much more.
+
+
+Worker Node.
+work done by us is worker node.
+pod, kubelet,kube-proxy,docker(container runtime)
+Pod manages container. In best practise one pod holds one container.Node may carry multiple pods.
+Services in container is workload.
+Kubelet is
+kube proxy provides ip.
+csi provides different types of storage to pods.
+
+Pods are the most secured environment to run container.
+
+FLOW of architecture.
+what id pod get crashed?
+first it will go to api server from kubelet then to conntroller and manager to chechk desired state. Then towards scheduler and then towards kubelets.Then kube proxy
+will send traffic towards pod. 
