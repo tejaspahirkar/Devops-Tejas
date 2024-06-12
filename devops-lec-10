@@ -1,0 +1,41 @@
+pod is YAML manifest. smallest deployable unit.
+YAML is yet another markup language.
+
+Differnce between pod and container
+what is yaml manifest ?
+Difference between declarative and imperative approach?
+
+
+
+KLLRCODA
+
+CREATING NAMESPACE
+kubectl --> command line tool
+kubectl get all -->
+kubectl get namespaces --> shows namespaces
+kubectl get pods -n kube-system(namespace) -->
+
+
+kubectl create namespace -n cdecb1
+
+vim mynamespcae.yml
+
+kubectl create -f mynamespace.yml
+
+kubectl get namespaces
+
+pod is created in namespace
+kubectl create pod nginx -->
+vim pod.yml
+kubectl create -f pod.yml
+kubectl get po
+
+kubectl descrie po nginx 
+
+events :-
+successfully pod is asssigned to node
+pulling image 
+image pulled succesfully
+created container in pod
+started container
+
