@@ -34,3 +34,7 @@ FLOW of architecture.
 what id pod get crashed?
 first it will go to api server from kubelet then to conntroller and manager to chechk desired state. Then towards scheduler and then towards kubelets.Then kube proxy
 will send traffic towards pod. 
+
+killer koda for kubernetes 
+kucectl --> command line tool to create resources in kuberneetes cluster.
+
