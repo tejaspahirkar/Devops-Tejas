@@ -30,6 +30,10 @@ vim pod.yml
 kubectl create -f pod.yml
 kubectl get po
 
+difference between pod,container and deployment?
+difference between deployment and replica set?
+
+
 kubectl descrie po nginx 
 
 events :-
