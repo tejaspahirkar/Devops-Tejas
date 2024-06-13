@@ -1,0 +1,26 @@
+Replica set --> it is a basically a controller/manager
+kind --> type of resource 
+yaml files
+  Deployment 
+
+rollback--> going back to older update version
+rollup--> going towards new update version
+
+
+  vim deployment.yml 
+  kubectl create -f deployment.yml --> 
+  kubectl get deployments.apps
+  kubectl describe deployments.apps
+  kubectl get replicasets.apps
+  kubectl get pod
+  kubectl delete pod podname --> net pod get assiigned as it was to maintain the desired state 
+
+  watch -n 2 kubectl get pod
+
+  Replica set 
+
+  deployment > replica set > pod > container   this is the flow of kubernetes
+
+  kubectl get rs -->
+  kubectl get nodes -->
+  
