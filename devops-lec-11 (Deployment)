@@ -24,3 +24,17 @@ rollup--> going towards new update version
   kubectl get rs -->
   kubectl get nodes -->
   
+Types of application 
+1. statefull --> if an application is storing data continuosly 
+2. stateless --> if an application doesn't stores data 
+
+to manage data stored in statefull state 
+
+elastic search consist of EFK
+E --> elastic search stores data (statefull set)
+F --> fluentd brings data (daemon state)
+K --> kibana is the dashboard where data is shown (deployment)
+
+
+
+
