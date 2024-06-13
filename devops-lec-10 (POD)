@@ -11,7 +11,7 @@ KLLRCODA
 
 CREATING NAMESPACE
 kubectl --> command line tool
-kubectl get all -->
+kubectl get all --> gives information about resources
 kubectl get namespaces --> shows namespaces
 kubectl get pods -n kube-system(namespace) -->
 
@@ -28,7 +28,7 @@ pod is created in namespace
 kubectl create pod nginx -->
 vim pod.yml
 kubectl create -f pod.yml
-kubectl get po
+kubectl get po 
 
 difference between pod,container and deployment?
 difference between deployment and replica set?
