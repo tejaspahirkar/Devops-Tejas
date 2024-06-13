@@ -1,0 +1,17 @@
+LOGS
+
+Log files are the primary data source for application observability.
+A log file is a computer-generated data file that contains information about usage patterns,
+activities, and operations within an operating system, application, server or another device.
+Log files show whether resources are performing properly and optimally.
+
+EFK 
+
+EFK stack is a collection of 3 open source products 
+  
+1) E : Elastic Search --> For storing logs(statefull state) 
+2) F : Fluentd --> For processing logs(daemon state)
+3) K : Kibana --> Visualization tool to monitor logs , basically a dashboard(Deployment)
+
+EFK provides centralized logging in order to identify problems with servers or applications
+It allows you to search all the logs in a single place.
