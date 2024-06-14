@@ -1,3 +1,5 @@
+k8s --> it has two main features auto healing and autoscaling.
+deployment and replica set are used for healing purpose.
 Replica set --> it is a basically a controller/manager
 kind --> type of resource 
 yaml files
@@ -34,6 +36,9 @@ elastic search consist of EFK
 E --> elastic search stores data (statefull set)
 F --> fluentd brings data (daemon state)
 K --> kibana is the dashboard where data is shown (deployment)
+
+daemon set --> pod gets created sutomatically in each services in daemon state.and that fetch data . 
+
 
 
 
