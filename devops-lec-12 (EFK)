@@ -1,3 +1,5 @@
+por range 0-65000
+
 LOGS
 
 Log files are the primary data source for application observability.
@@ -15,3 +17,16 @@ EFK stack is a collection of 3 open source products
 
 EFK provides centralized logging in order to identify problems with servers or applications
 It allows you to search all the logs in a single place.
+
+
+kubectl get po podname 
+
+what is a static pod?
+
+labels and selectors 
+
+service : it is a labels and selectors exposes outer world , 
+1) load balacner :- expose frontend ie nginx, expose the service externally using external load balancer
+2) cluster ip :-
+3) node port service :- 
+
