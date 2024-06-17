@@ -1,4 +1,5 @@
-por range 0-65000
+port range :- 0-65000
+kubernetes node port range :- 30000-32767
 
 LOGS
 
@@ -27,6 +28,7 @@ labels and selectors
 
 service : it is a labels and selectors exposes outer world , 
 1) load balacner :- expose frontend ie nginx, expose the service externally using external load balancer
-2) cluster ip :-
-3) node port service :- 
-
+2) cluster ip :- internal access of ur service, to access instance privately 
+3) node port service :- If port is added then that machine get access 
+4) database :- no one has access to this.
+5) 
