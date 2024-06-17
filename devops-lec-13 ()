@@ -1,0 +1,6 @@
+kubectl apply -f mysql.yml --> to run or creation 
+kubectl exec -it
+
+vim cluster ip.yml
+kubectl apply -f clusterip.yml
+kubectl get service
