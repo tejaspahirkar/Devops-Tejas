@@ -4,3 +4,11 @@ tents and tolerations
 
 MULTIPLE SCHEDULER
 oll upfatee
+
+
+environment variable
+config map
+network policy :-
+statefull set
+ingress:- Providing path using route
+          To expose an application to customer using load balancer as well as node port services we use ingress.
