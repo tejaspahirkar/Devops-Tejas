@@ -1,5 +1,5 @@
 k8s --> it has two main features auto healing and autoscaling.
-deployment and replica set are used for healing purpose.
+deployment and replica set are used for auto scaling and auto healing purpose.
 Replica set --> it is a basically a controller/manager
 kind --> type of resource 
 yaml files
