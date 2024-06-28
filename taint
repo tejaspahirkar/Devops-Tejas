@@ -1,9 +1,12 @@
-tents and tolerations
-
-
+taints and tolerations
+taint created in node and tol in pod
+types of effects
+difference bet preferred schedule and no schedule
+use of no execute taint
+how do we remove a taint effect 
 
 MULTIPLE SCHEDULER
-oll upfatee
+roll updatee
 
 
 environment variable
@@ -12,4 +15,5 @@ network policy :-
 statefull set :- an application that requires persistent database 
 ingress:- Providing path using route
           To expose an application to customer using load balancer as well as node port services we use ingress.
-PVC
+PVC (physical volume claim ):- claiming storage from cloud by roll binding then that pvc is connected to pod.
+PV  (persistent volume) :- 
