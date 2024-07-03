@@ -1,0 +1,3 @@
+teraform is infrastructure as a code made on HCL language.
+HCL stands for Hashicorp languauge.
+To create resource there are two methods using console and CLI.
