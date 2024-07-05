@@ -1,0 +1,4 @@
+Providers --> where resource is made (aws,gcp,azure)
+Resource
+Multiple providers and regions
+Input and output variables
