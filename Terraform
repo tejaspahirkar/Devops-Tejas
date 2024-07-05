@@ -1,3 +1,11 @@
 teraform is infrastructure as a code made on HCL language.
 HCL stands for Hashicorp languauge.
 To create resource there are two methods using console and CLI.
+
+Features of terraform
+Flow of terraform
+Initialize > write > plan > Apply(execution of resources)
+To delete resources we use terraform destroy
+
+
+terraform init
