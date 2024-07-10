@@ -1,0 +1,15 @@
+DR dril
+
+Output files :- 
+Teraform.tf :-
+Variable file
+Main file
+
+State file :- It is used as a file 
+              whenever infrastructre is modified it is notified by state file.
+              All sensitive information is stored under this file .
+
+how do you manage state file ?
+we store data in remote storage ie s3 
+
+How to store state file in s3 bucket ?
