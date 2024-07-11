@@ -1,0 +1,19 @@
+Ansible works on application level . To run or install application ansible is used.
+
+
+Provisioner 
+Types :- 1) File provosioner
+         2) local-exec provisioner
+         3) Remote-exec provisionerqqqqqqqqqqqqqutt
+
+To configure 
+
+
+
+
+VPC 
+CIDR blocks
+Subnets
+we can login using provisioner as well as deploy application using provisoner.
+gggg
+
