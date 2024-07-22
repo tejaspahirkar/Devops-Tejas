@@ -1,0 +1,16 @@
+Difference between continuous integration/delivery/deployment
+
+Jenkins works on port number 8080
+
+/dev/null -->
+
+Jenkins is GUI based not CLI based.
+
+Jobs are created in jenkins.
+
+/var/lib/jenkins --> All services are within path in var/lib  --> Home directory of jenkins
+
+SCM stands for source code mangament
+
+
+
