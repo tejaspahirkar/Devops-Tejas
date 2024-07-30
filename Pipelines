@@ -1,0 +1,16 @@
+SDLC (software development lifecycle)
+First we create a project then job is created after that.
+Automating CI/CD is pipeline.
+
+Jenkins architecture and pipeline
+
+Types of pipelines:
+1)Declarative  (written in groovy syntax)
+2)Scripted
+
+DSL (domain specific language)
+
+Flowchart of CD scenario modules in Jenkins Pipeline
+
+Plugins in Jenkins
+
